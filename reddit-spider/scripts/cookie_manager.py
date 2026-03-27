@@ -44,4 +44,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     cookie_string = parse_cookie_string(args.update)
     save_cookies(cookie_string)
-    print("Cookie updated")
+    print("✅ Cookie 已更新")
